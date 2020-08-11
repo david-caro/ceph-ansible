@@ -31,7 +31,7 @@ openstack_cinder_pool:
   pg_num: "{{ osd_pool_default_pg_num }}"
   pgp_num: "{{ osd_pool_default_pg_num }}"
   rule_name: "HDD"
-  type: 1
+  type: 3
   size: 1
 openstack_pools:
   - "{{ openstack_glance_pool }}"
